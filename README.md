@@ -3,6 +3,7 @@
 # Overview
 
 <img src="https://user-images.githubusercontent.com/86887626/137727899-82b75483-0881-4de5-aa5f-78684ff6d1f0.jpg" width="500" height="300">
+
 # Introduction
 
 This project is a racing simulation created using javascript,html and css.This project consists of 3 parts-
