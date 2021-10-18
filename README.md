@@ -6,7 +6,7 @@
 
 # Introduction
 
-This project is a racing simulation created using javascript,html and css.This project consists of 3 parts-
+In This project i have created a racing simulation using javascript,html and css.This project consists of 3 parts-
 
 1. An API. The API is provided in the form of a binary held in the bin folder. You never need to open the binary file, as there are no edits you can make to it. Your work will be 100% in the front end.The various API Endpoints used in the project are-
    [GET] `api/tracks`
@@ -81,9 +81,3 @@ If you still run into issues running the API server on your machine, you can run
 ### Start the Frontend
 
 First, run your preference of `npm install && npm start` or `yarn && yarn start` at the root of this project. Then you should be able to access http://localhost:3000.
-
-### API Calls
-
-To complete the project you must first create the calls to the API. These will all be fetch requests, and all information needed to create the request is provided in the instructions. The API calls are all at the bottom of the file: `src/client/assets/javascript/index.js`.
-
-Below are a list of the API endpoints and the shape of the data they return. These are all of the endpoints you need to complete the game. Consult this information often as you complete the project:
