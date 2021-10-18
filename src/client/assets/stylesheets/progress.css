@@ -1,0 +1,45 @@
+/* PROGRESS PAGE SPECIFIC STYLES */
+
+/* -------------------  MOBILE  --------------------- */
+header {
+  background-image: url("https://d2n9h2wits23hf.cloudfront.net/image/v1/static/6057949432001/d429a07d-05bb-498b-8cd5-f490ab790333/764b836a-5c4a-458e-aeb8-9025353d6829/658x370/match/image.jpg");
+}
+
+main#two-columns {
+  margin: 50px 0;
+  display: flex;
+}
+
+main#two-columns section {
+  max-width: 50vw;
+}
+
+section#accelerate button {
+  height: 300px;
+  width: 300px;
+  margin: 30px auto;
+  border-radius: 180%;
+  background-color: green;
+  border-color: rgb(14, 166, 6);
+  cursor: pointer;
+}
+
+#big-numbers {
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+}
+
