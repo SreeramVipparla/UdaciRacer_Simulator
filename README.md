@@ -6,7 +6,7 @@
 
 # Introduction
 
-In This project i have created a racing simulation using javascript,html and css.This project consists of 3 parts-
+In this project I have created a racing simulation that has 6 unique tracks and 5 drivers of different stats. I have used Javascript,HTML & CSS to complete this project. The race begins as the user click on the accelerator and updates the users position regulary through the leaderboard. After a race is completed a leaderboard appears with the final standings.If the user wishes to play again a redirect button is provided in the leaderboard page.
 
 1. An API. The API is provided in the form of a binary held in the bin folder. You never need to open the binary file, as there are no edits you can make to it. Your work will be 100% in the front end.The various API Endpoints used in the project are-
    [GET] `api/tracks`
