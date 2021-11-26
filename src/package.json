@@ -1,0 +1,43 @@
+{
+  "name": "open-source-rpg-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node src/server.js",
+    "build": "next build",
+    "start": "node src/server.js",
+    "lint": "next lint",
+    "heroku-postbuild": "npx prisma migrate deploy && next build"
+  },
+  "prisma": {
+    "schema": "src/prisma/schema.prisma"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/icons-material": "^5.0.3",
+    "@mui/material": "^5.0.3",
+    "@mui/styles": "^5.0.1",
+    "@prisma/client": "^3.2.0",
+    "axios": "^0.22.0",
+    "copy-to-clipboard": "^3.3.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "formik": "^2.2.9",
+    "js-queue": "^2.0.2",
+    "next": "^12.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-transition-group": "^4.4.2",
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "prisma": "^3.3.0"
+  }
+}
